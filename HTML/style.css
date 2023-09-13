@@ -1,0 +1,12 @@
+p {
+    color:rgb(13, 158, 224);
+    font-size: 20px;
+}
+span {
+    font-size: 30px;
+    color: darkred;
+}
+body {
+    background:rgba(0, 0, 0, 0.877);
+    color: white
+}
