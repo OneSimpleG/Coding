@@ -45,12 +45,3 @@ img {
     padding: 10px;
     line-height: 5px;
 }
-
-.sidebar {
-    width: 160px;
-    text-align: right;
-}
-
-.content {
-    margin-right: 160px;
-}
