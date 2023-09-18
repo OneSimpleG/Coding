@@ -52,6 +52,8 @@ img {
     background-color: #333;
     position: relative;
     z-index: 999;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .navbar ul {
@@ -107,3 +109,28 @@ img {
 ul li {
     display: inline;
 }
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+tr td {
+    border: 2px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+.table1 {
+    float: left;
+    margin: 0px 10px;
+}
+
+.table2 {
+    /* float: left; */
+    margin: 10px 10px;
+}
+
+/* .tablepain tbody tr td {
+    column-span: 1;
+} */
