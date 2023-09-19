@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="vardas">Vardas:</label>
+            <input type="text" id="vardas" name="vardas" required>
+        </div>
+        <div>
+            <label for="pavarde">Pavarde:</label>
+            <input type="text" id="pavarde" name="pavarde" required>
+        </div>
+        <div>
+            <label for="email">EL. Pastas:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="Password">Slaptazodis:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Pristatimo adresas</legend>
+                <div>
+                    <label for="gatve">Gatve:</label>
+                    <input type="text" id="gatve" name="gatve">
+                </div>
+                <div>
+                    <label for="namas">Namo Numeris:</label>
+                    <input type="number" id="namas" name="namas">
+                </div>
+                <div>
+                    <label for="miestas">Pasirinkit Miesta:</label>
+                    <select name="miestas" id="miestas">
+                        <option value="kaunas">Kaunas</option>
+                        <option value="vilnius">Vilnius</option>
+                        <option value="klaipeda">Klaipeda</option>
+                        <option value="taurage">Taurage</option>
+                    </select>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Apmokejimo Budas</legend>
+                    <div>
+                        <label for="apmokejimo_budas">Mastercard</label>
+                        <input type="radio" id="apmokejimo_budas" name="ab">
+                    </div>
+                    <div>
+                        <label for="apmokejimo_budas">Visa</label>
+                        <input type="radio" id="apmokejimo_budas" name="ab">
+                    </div>
+                    <div>
+                        <label for="apmokejimo_budas">Grynais</label>
+                        <input type="radio" id="apmokejimo_budas" name="ab">
+                    </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Dovaneles</legend>
+                    <div>
+                        <label for="dovaneles">balionai</label>
+                        <input type="checkbox" id="dovaneles" name="dovaneles">
+                    </div>
+                    <div>
+                        <label for="dovaneles">sokoladai</label>
+                        <input type="checkbox" id="dovaneles" name="dovaneles">
+                    </div>
+                    <div>
+                        <label for="dovaneles">lipdukai</label>
+                        <input type="checkbox" id="dovaneles" name="dovaneles">
+                    </div>
+            </fieldset>
+        </div>
+    <div>
+    <label for="pastabos">Komentarai, pastabos</label>
+    <textarea id="pastabos" name="pastabos" rows="5" cols="33"></textarea>
+    </div>
+        <div>
+            <button class="uzsakimas" type="button">Uzsakyti</button>
+        </div>
+    </form>
+</body>
+</html>
