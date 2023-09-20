@@ -87,8 +87,82 @@
             <button class="uzsakimas" type="button">Uzsakyti</button>
         </div>
     </form>
+    <br>
     <forma>
-        
+        <div>
+            <label for="User_id">User ID:</label>
+            <input type="text" id="User_id" name="User_id" required>
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass" min="7" max="12" required>
+        </div>
+        <div>
+            <label for="vardas">Vardas</label>
+            <input type="text" id="vardas" name="vardas" pattern="[A-Za-z] {1,}">
+        </div>
+        <div>
+            <label for="adresas">Adresas</label>
+            <input type="text" id="adresas" name="adresas" required>
+        </div>
+        <div>
+            <label for="salis">Salis</label>
+            <select name="miestas" id="miestas">
+                <option value="kaunas">Lietuva</option>
+                <option value="vilnius">Amerika</option>
+                <option value="klaipeda">Voketija</option>
+                <option value="taurage">Ispanija</option>
+            </select>
+        </div>
+        <div>
+            <label for="zip">ZIP</label>
+            <input type="number" id="zip" name="zip" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Lytis</legend>
+                    <div>
+                        <label for="sex">Vyras</label>
+                        <input type="radio" id="sex" name="sex">
+                    </div>
+                    <div>
+                        <label for="sex">Moteris</label>
+                        <input type="radio" id="sex" name="sex">
+                    </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Kalba</legend>
+                    <div>
+                        <label for="kalba">Lietuviu</label>
+                        <input type="checkbox" id="kalba" name="kalba">
+                    </div>
+                    <div>
+                        <label for="kalba">Anglu</label>
+                        <input type="checkbox" id="kalba" name="kalba">
+                    </div>
+                    <div>
+                        <label for="kalba">Ispanu</label>
+                        <input type="checkbox" id="kalba" name="kalba">
+                    </div>
+                    <div>
+                        <label for="kalba">Vokeciu</label>
+                        <input type="checkbox" id="kalba" name="kalba">
+                    </div>
+            </fieldset>
+        </div>
+        <div>
+<label for="about">About</label>
+<textarea id="about" name="about" rows="10" cols="50"></textarea>
+        </div>
+        <div>
+            <button class="forma" type="button">Pateikti forma</button>
+        </div>
     </forma>
 </body>
 </html>
