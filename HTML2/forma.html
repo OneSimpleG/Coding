@@ -84,11 +84,11 @@
     <textarea id="pastabos" name="pastabos" rows="5" cols="33" disabled></textarea>
     </div>
         <div>
-            <button class="uzsakimas" type="button">Uzsakyti</button>
+            <button class="uzsakimas" type="submit">Uzsakyti</button>
         </div>
     </form>
     <br>
-    <forma>
+    <form>
         <div>
             <label for="User_id">User ID:</label>
             <input type="text" id="User_id" name="User_id" required>
@@ -99,7 +99,7 @@
         </div>
         <div>
             <label for="vardas">Vardas</label>
-            <input type="text" id="vardas" name="vardas" pattern="[A-Za-z] {1,}">
+            <input type="text" id="vardas" name="vardas" pattern="[A-Z][a-z]*" min="1" required>
         </div>
         <div>
             <label for="adresas">Adresas</label>
@@ -161,8 +161,8 @@
 <textarea id="about" name="about" rows="10" cols="50"></textarea>
         </div>
         <div>
-            <button class="forma" type="button">Pateikti forma</button>
+            <button class="forma" type="submit">Pateikti forma</button>
         </div>
-    </forma>
+    </form>
 </body>
 </html>
