@@ -1,0 +1,34 @@
+MERGING BRANCHES
+	git checkout <branch to merge into>	
+	git merge <branch to merge from>
+	git commit -m "message"
+	git push
+	https://barbagroup.github.io/essential_skills_RRC/git/branching/
+
+DELETE BRANCH
+	git branch -d <branch name> (locally)
+	git push origin --delete remoteBranchName (remote)
+
+CREATING FOLDERS
+	git add <folder name WITH ATLEAST 1 FILE INSIDE>
+	git commit -m "message"
+
+UPDATING TO A BRANCH
+	git pull <repository link> <branch>
+
+DOWNLOADING A BRANCH
+
+CREATING NEW BRANCH
+	git branch <branch name> (create a branch locally)
+	git checkout <branchname> (go into local? branch)
+	git push --set-upstream origin <branchname>
+	
+CHANGING/SETTING ORIGIN
+	git remote set-url origin <repo link>
+
+COMMITING
+	git add <filename(with relative path index.html => folder/index.html)> (can use "git add ." to add everything)
+	git commit -m "message"
+	git push
+
+Gediminas M
