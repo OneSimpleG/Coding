@@ -96,13 +96,139 @@
             <label for="adress">Adress:</label>
             <textarea id="adress" name="adress" rows="10" cols="50"></textarea>
         </div>
+        <br>
         <button type="submit">Submit</button>
     </form>
     <br>
     <br>
     <form>
-        <label for="vardas">Vardas</label>
-        
+        <a>
+            <a style="display: inline-block;">
+                <label for="vardas">Vardas</label>
+                <div>
+                <input type="text" id="vardas" name="vardas">
+                </div>
+            </a>
+            <a style="display: inline-block;">
+                <label for="pav">Pavarde:</label>
+                <div>
+                <input type="text" id="pav" name="pav">
+                </div>
+            </a>
+        </a>
+        <br>
+        <a>
+            <a style="display: inline-block;">
+                <label for="num">Numeris:</label>
+                <div>
+                <input type="number" id="num" name="num" placeholder="Pvz: +37066105555">
+                </div>
+            </a>
+            <a style="display: inline-block;">
+                <label for="imon">Imones Pavadinimas:</label>
+                <div>
+                <input type="text" id="imon" name="imon">
+                </div>
+            </a>
+        </a>
+        <br>
+        <a>
+            <a style="display: inline-block;">
+                <label for="miestas">Miestas</label>
+                <div>
+                    <select name="miestas" id="miestas" style="width: 177px;">
+                        <option value="kaunas">Kaunas</option>
+                        <option value="vilnius">Vilnius</option>
+                        <option value="klaipeda">Klaipeda</option>
+                        <option value="taurage">Taurage</option>
+                    </select>
+                </div>
+            </a>
+            <a style="display: inline-block;">
+                <label for="adres">Adresas:</label>
+                <div>
+                <input type="text" id="adres" name="adres">
+                </div>
+            </a>
+        </a>
+        <br>
+        <a>
+            <a style="display: inline-block;">
+                <label for="pastas">Pasto kodas: (Tik skaiciai)</label>
+                <div>
+                    <input type="number" id="pastas" name="pastas">
+                </div>
+        </a>
+        <br>
+        <br>
+        <button type="submit">Isaugoti pateikimus</button>
     </form>
+    <br>
+    <table border="1" cellpading="10px">
+        <thead>
+            <tr>
+                <th>Day/Period</th>
+                <th>I<br>9:30-10:20</th>
+                <th>II<br>10:20-11:10</th>
+                <th>III<br>11:10-12:00</th>
+                <th>12:00-12:40</th>
+                <th>IV<br>12:40-1:30</th>
+                <th>V<br>1:30-2:20</th>
+                <th>VI<br>2:20-3:10</th>
+                <th>VII<br>3:10-4:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td rowspan="6" style="text-orientation:upright; writing-mode: vertical-rl;">LUNCH</td>
+                <td colspan="3">LAB</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>SPORTS</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LIBRARY</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3">SEMINAR</td>
+                <td>SPORTS</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>

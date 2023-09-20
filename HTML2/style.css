@@ -14,3 +14,26 @@ a img {
 #fd {
     list-style: disc;
 }
+
+#stack input {
+    display: block;
+}
+
+#stack {
+    float: left;
+}
+
+table {
+    text-align: center;
+}
+
+table th, td{
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(0, 140, 255);
+    border: 2px solid rgb(0, 99, 180);
+    padding: 7px;
+    border-radius: 15px;
+}
