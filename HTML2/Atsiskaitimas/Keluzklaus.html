@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uzklausos formas</title>
+</head>
+<body>
+    <header>
+        <h1>
+            SUPER DUPER KELIONIU AGENTURA
+        </h1>
+        <nav class="navbar">
+            <ul style="list-style: none;">
+                <li><a href="index.html"><img src="https://i.pinimg.com/originals/46/1b/02/461b023a3dd139239369ed2e746ce5ec.png" height="50px"></a></li>
+                <li><a href="Login.html">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="name">Vardas</label>
+                <input type="text" id="name" name="name" required pattern="[A-Z][a-z]*" min="3">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="name" required>
+            </div>
+            <div>
+                <label for="tel">Telefono numeris</label>
+                <input type="tel" id="tel" name="tel" required>
+            </div>
+            <div>
+                <fieldset>
+                    <div>
+                        <label for="miestas">Miestas</label>
+                        <select name="miestas" id="miestas" required>
+                            <option value="kaunas">Kaunas</option>
+                            <option value="vilnius">Vilnius</option>
+                            <option value="klaipeda">Klaipeda</option>
+                            <option value="taurage">Taurage</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mokbudas">Mokejimo Budas</label>
+                        <select name="mokbudas" id="mokbudas" required>
+                            <option value="visa">VISA</option>
+                            <option value="mastercard">MasterCard</option>
+                            <option value="grynieji">Grynieji</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="keltruk">Keliones trukme</label>
+                        <select name="keltruk" id="keltruk" required>
+                            <option value="1d">1D.</option>
+                            <option value="3d">3D.</option>
+                            <option value="7d">7D.</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <label for="keldat">Keliones data</label>
+                <input type="date" id="keldat" name="keldat">
+            </div>
+            <div>
+                <fieldset>
+                <legend>Priedai
+                    <input type="checkbox" id="pried" name="pried">
+                    <label for="pried">Priedas1</label>
+                    <input type="checkbox" id="pried" name="pried">
+                    <label for="pried">Priedas2</label>
+                    <input type="checkbox" id="pried" name="pried">
+                    <label for="pried">Priedas3</label>
+                    <input type="checkbox" id="pried" name="pried">
+                    <label for="pried">Prieadas4</label>
+                </fieldset>
+            </legend>
+            </div>
+            <div>
+                <fieldset>
+                <legend>Zmoniu skaicius</legend>
+                <div>
+                    <label for="zmonsk">1</label>
+                    <input type="radio" id="zmonsk" name="zs">
+                </div>
+                <div>
+                    <label for="zmonsk">2</label>
+                    <input type="radio" id="zmonsk" name="zs">
+                </div>
+                <div>
+                    <label for="zmonsk">3</label>
+                    <input type="radio" id="zmonsk" name="zs">
+                </div>
+                <div>
+                    <label for="zmonsk">3+</label>
+                    <input type="radio" id="zmonsk" name="zs">
+                </div>
+            </fieldset>
+            </div>
+            <div>
+                <label for="papinfo">Papildomas Info</label>
+                <textarea id="papinfo" name="papinfo"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <address>
+            Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+            Visit us at:<br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2294.327919341334!2d23.90959017716264!3d54.897166457567685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e7220e526e5937%3A0x7eed3da0ca530569!2sBaltic%20Clipper%20kelioni%C5%B3%20agent%C5%ABra%2C%20Kauno%20filialas!5e0!3m2!1sen!2slt!4v1695290814078!5m2!1sen!2slt" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+            Example.com<br>
+            LT
+            </address>
+
+        <br>
+        &copy;
+    </footer>
+</body>
+</html>
