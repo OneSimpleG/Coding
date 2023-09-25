@@ -1,4 +1,4 @@
-a img {
+/* a img {
     border: 4px solid  rgb(241, 109, 0);
     border-radius: 5px;
 }
@@ -21,7 +21,7 @@ a img {
 
 #stack {
     float: left;
-}
+}*/
 
 table {
     text-align: center;
@@ -36,4 +36,37 @@ table th, td{
     border: 2px solid rgb(0, 99, 180);
     padding: 7px;
     border-radius: 15px;
-} */
+} */ 
+
+body {
+    background-color: rgb(1, 22, 39);
+    color: snow;
+    font-size: 16px;
+    font-family: 'Roboto-bold', sans-serif;
+}
+
+table {
+    background-color: rgb(255, 251, 254);
+    color: black;
+}
+
+form div input , textarea , select {
+    background-color: rgb(7, 9, 15);
+    border-color: rgb(221, 96, 49);
+    border-radius: 5px;
+    color: snow;
+    box-shadow: 0px 0px 3px 1px rgba(221,96,49,0.50);
+}
+
+form button {
+    background-color: rgb(16, 152, 247);
+    border-radius: 5px;
+    border-color: rgb(7, 9, 15);
+    color: snow;
+    font-size: 15px;
+}
+
+@font-face {
+    font-family:Roboto-Bold;
+    src: url(Roboto/Roboto-Bold.ttf);
+}
