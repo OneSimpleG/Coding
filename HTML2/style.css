@@ -39,7 +39,11 @@ table th, td{
 } */ 
 
 body {
-    background-color: rgb(1, 22, 39);
+    /*background-color: rgb(1, 22, 39);*/
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 100vw;
+    background-image: url(https://st5.depositphotos.com/35914836/63547/i/450/depositphotos_635479512-stock-photo-brown-wooden-wall-texture-background.jpg);
     color: snow;
     font-size: 16px;
     font-family: 'Roboto-bold', sans-serif;
@@ -53,9 +57,14 @@ table {
 form div input , textarea , select {
     background-color: rgb(7, 9, 15);
     border-color: rgb(221, 96, 49);
+    background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-neon-double-color-futuristic-frame-colorful-background-picture-image_1178693.jpg);
+    background-position: center;
+    background-size: cover;
     border-radius: 5px;
     color: snow;
     box-shadow: 0px 0px 3px 1px rgba(221,96,49,0.50);
+    margin: 3px;
+    padding: 2px;
 }
 
 form button {
@@ -69,4 +78,47 @@ form button {
 @font-face {
     font-family:Roboto-Bold;
     src: url(Roboto/Roboto-Bold.ttf);
+}
+
+textarea {
+    border-style: dashed;
+}
+
+table {
+    background-image: url(https://img.freepik.com/premium-photo/orange-blue-background-with-blue-orange-background_581634-13942.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+textarea {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_640.jpg);
+    background-size:cover
+}
+
+.fill {
+    height: 350px;
+    width: 350px;
+    object-fit: fill;
+    border: 2px solid black;
+}
+
+.cover {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.scale {
+    height: 350px;
+    width: 350px;
+    object-fit: scale-down;
+    border: 2px solid black;
+}
+
+.contain {
+    height: 350px;
+    width: 350px;
+    object-fit: contain;
+    border: 2px solid black;
 }

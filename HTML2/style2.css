@@ -1,0 +1,106 @@
+span {
+    color:  orange;
+}
+
+.blue{
+    color: blue;
+}
+
+.pink {
+    color: hotpink;
+}
+
+table {
+    border-style: inset;
+}
+
+label {
+    color: orangered;
+    font-weight: bold;
+}
+
+h1 , h2 {
+    color: green;
+}
+
+.gallery {
+    display: inline-block
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.fill {
+    object-fit: fill;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.contain {
+    object-fit: contain;
+}
+
+.scale {
+    object-fit: scale-down;
+}
+
+.none {
+    object-fit: none;
+}
+
+.gallery2 a {
+    height: 250px;
+    width: 150px;
+    display: table-cell;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rep {
+    background: url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1287145.jpg&fm=jpg);
+    background-size: 75px;
+}
+
+.mul {
+    background: url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1287145.jpg&fm=jpg), url(https://images.unsplash.com/photo-1596073419667-9d77d59f033f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9zZSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+    background-position:top left,bottom right;
+    background-size:100% 50%, 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.opa {
+    background: url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1287145.jpg&fm=jpg);
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.pos {
+    background: url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1287145.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fla {
+    background-color: dodgerblue;
+}
+
+.ima {
+    background: url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1287145.jpg&fm=jpg);
+    background-size: none;
+    background-position: center;
+}
+
+.gra {
+    background: linear-gradient(rgb(30, 144, 255), rgb(61, 61, 61))
+}
+
+form input, textarea {
+    border-radius: 3px;
+}
