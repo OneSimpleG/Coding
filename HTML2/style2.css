@@ -105,3 +105,54 @@ img {
 form input, textarea {
     border-radius: 3px;
 }
+
+fieldset {
+    width: 150px;
+}
+
+.visit:visited {
+    color: red;
+}
+
+.foc:focus {
+    background-color: aquamarine;
+}
+
+.child h3:first-child {
+    background-color: red;
+}
+
+.child p:first-of-type {
+    background-color: green;
+}
+
+.fline h3::first-line {
+    color: red;
+    font-weight: bold;
+}
+
+.hover {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 120px;
+    background-color: orangered;
+}
+
+.hover:hover {
+    background-color: orange;
+}
+
+.active {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 120px;
+    background-color: orangered;
+}
+
+.active:active {
+    background-color: yellow;
+}
