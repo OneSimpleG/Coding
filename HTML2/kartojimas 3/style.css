@@ -1,0 +1,108 @@
+.vis {
+    border: 3px solid black ;
+    border-style: dashed;
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+}
+
+.vis img {
+    float: right;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* .web div {
+    margin: 2px;
+    display: inline-flex;
+}
+
+.header {
+    width: 100vw;
+    height: 75px;
+    background-color: gray;
+}
+
+.nav {
+    width: 100vw;
+    height: 50px;
+    background-color: gray;
+}
+
+.body {
+    width: 100vw;
+    height: 300px;
+    justify-content: space-between;
+    align-content: space-evenly;
+    align-items: stretch;
+    gap: 2px;
+}
+
+.aside {
+    flex-grow: 1;
+    height: inherit;
+    float: left;
+    background-color: gray;
+}
+
+.main {
+    flex-grow: 4;
+    height: inherit;
+    background-color: gray;
+}
+
+.bside {
+    flex-grow: 1;
+    height: inherit;
+    float: right;
+    background-color: gray;
+}
+
+.footer { 
+    width: 100vw;
+    height: 50px;
+    background-color: gray;
+} */
+
+.web div {
+    margin: 2px;
+}
+
+.header{
+    height: 70px;
+    background-color: gray;
+}
+
+.nav{
+    height: 40px;
+    background-color: gray;
+}
+
+.footer{
+    height: 40px;
+    background-color: gray;
+}
+
+.body{
+    display:inl;
+    height: 100px;
+}
+
+.aside {
+    float: left;
+    height: inherit;
+    background-color: gray;
+}
+
+.bside {
+    float: right;
+    height: inherit;
+    background-color: gray;
+}
+
+.main {
+    float: left;
+    height: inherit;
+    background-color: gray;
+}
