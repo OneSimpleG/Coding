@@ -85,7 +85,7 @@
 }
 
 .body{
-    display:inl;
+    display:inline-block;
     height: 100px;
 }
 
@@ -93,16 +93,143 @@
     float: left;
     height: inherit;
     background-color: gray;
+    width: 10vw;
 }
 
 .bside {
     float: right;
     height: inherit;
     background-color: gray;
+    width: 10vw;
 }
 
 .main {
     float: left;
     height: inherit;
     background-color: gray;
+    width: 76vw;
+}
+
+.web2{
+    display: inline-block;
+    width: 100%;
+}
+
+.header2 {
+    color: snow;
+    background-color: dodgerblue;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+}
+
+.ls, .main2, .rs{
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    height: 100px;
+}
+
+.ls {
+    background-color: orangered;
+    color: snow;
+    float: left;
+    width: 15%;
+}
+
+.main2{
+    background-color: green;
+    color: snow;
+    float: left;
+    width: 70%;
+}
+
+.rs{
+
+    background-color: yellow;
+    float: right;
+    width: 15%;
+}
+
+.bf{
+    background-color: rgb(158, 36, 158);
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.fo{
+    background-color: lightsalmon;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/HTML2/Roboto/Roboto-Bold.ttf);
+}
+
+.web3{
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.n3, .b3, .f3{
+    margin: 5px;
+    font-family: Roboto;
+}
+
+.n3{
+    border-radius: 5px;
+    background-color: rgb(21, 146, 21);
+    text-align: center;
+    padding: 15px;
+    color: snow;
+    
+}
+
+.b3{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    color: snow;
+    text-align: center;
+    display:inline-block;
+    box-sizing:border-box;
+    width: inherit;
+}
+
+.s31{
+    background-color: rgb(235, 54, 54);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.s32{
+    background-color: orange;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.s33{
+    background-color: pink;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.f3{
+    background-color: dodgerblue;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    color: snow;
 }

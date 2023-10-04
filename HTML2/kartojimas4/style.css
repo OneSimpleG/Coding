@@ -1,0 +1,62 @@
+.main{
+
+}
+
+.bgimg{
+    opacity: .5;
+    position: fixed;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.content{
+    position: relative;
+}
+
+/* .header{
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    color: white;
+    position: fixed;
+} */
+
+.c1{
+    position: relative;
+    background-color: gray;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    float: left;
+}
+
+.c11{
+    background-color: salmon;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -30px;
+}
+
+.c2{
+    position: relative;
+    background-color: gray;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+}
+
+.c21{
+    position: absolute;
+    background-color: salmon;
+    margin: inherit;
+}

@@ -1,0 +1,58 @@
+.img1{
+    position: relative;
+    height: 300px;
+    width: 400px;
+}
+
+.img1::before{
+    content: "";
+    background-image: url(https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGVza3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .75;
+}
+
+.img2{
+    width: 500px;
+    height: 500px;
+    display:inline-block;
+    position: relative;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    background-image: url(https://previews.123rf.com/images/romastudio/romastudio1603/romastudio160300056/52848969-superfood-background-only-fruit-food-photography-of-ripe-fruits-at-the-market.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    text-align: center;
+}
+
+.img2 h2{
+    float: left;
+}
+
+.img2 h2 {
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
+
+.c2 {
+    width: 50%;
+    height: 500px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255, .5);
+    z-index: 1;
+    float: right;
+    padding: 0;
+}
+
+h2{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
