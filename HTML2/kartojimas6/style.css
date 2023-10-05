@@ -1,9 +1,75 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/HTML2/Roboto/Roboto-Regular.ttf);
+}
+
 body{
     background-color: gray;
+    font-family: Roboto;
+    min-width: 500px;
+}
+
+.line{
+    width: 95%;
+    height: 2px;
+    background-color: gray;
+    margin: auto;
 }
 
 .form{
     background-color: white;
     border: 1px rgb(80, 80, 80) solid;
     border-radius: 2px;
+    height: 100vh;
 }
+
+.sna, .gias{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.gias{
+    color: deepskyblue;
+    margin-top: 0;
+    float: right;
+    padding-right: 10px;
+}
+
+.sna{
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.iform{
+    display: block;
+    width: 320px;
+    height: fit-content;
+    padding-left: 20px;
+}
+ .iform div{
+    margin: 5px;
+    height: 25px;
+ }
+
+ .iform input{
+    box-sizing: border-box;
+    min-width: 175px;
+    float: right;
+    height: inherit;
+    border: lightgrey 1px solid;
+    border-radius: 2px;
+ }
+
+ .form button{
+    margin-left: 15px;
+    padding: 7px;
+    width: 100px;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    border-radius: 2px;
+    border: none;
+ }
+
+ .pk{
+    background-color: lightgray;
+ }

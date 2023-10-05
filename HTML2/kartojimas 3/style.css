@@ -87,27 +87,32 @@
 .body{
     display:inline-block;
     height: 100px;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 .aside {
     float: left;
     height: inherit;
     background-color: gray;
-    width: 10vw;
+    width: 10%;
+    box-sizing: border-box;
 }
 
 .bside {
     float: right;
     height: inherit;
     background-color: gray;
-    width: 10vw;
+    width: 10%;
+    box-sizing: border-box;
 }
 
 .main {
     float: left;
     height: inherit;
     background-color: gray;
-    width: 76vw;
+    width: 75%;
+    box-sizing: border-box;
 }
 
 .web2{
@@ -203,7 +208,8 @@
     text-align: center;
     display:inline-block;
     box-sizing:border-box;
-    width: inherit;
+    width: 99%;
+    margin-right: 100px;
 }
 
 .s31{
