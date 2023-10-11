@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100vw;
+}
+.stripe{
+    background-color: dodgerblue;
+    height: 2vh;
+}
+.header{
+    background-color: lightskyblue;
+    text-align: center;
+    height: 24vh;
+}
+.content{
+    background-color: lightgray;
+    text-align: center;
+    height: 29vh;
+    float: left;
+    width: 100vw;
+}
+.sup{
+    background-color: rgb(150, 207, 241);
+    text-align: center;
+    height: 10vh;
+    float: left;
+    width: 100vw;
+}
+.f1{
+    background-color: rgb(250, 188, 117);
+    text-align: center;
+    height: 35vh;
+    float: left;
+    width: 33vw;
+}
+.f2{
+    background-color: rgb(255, 106, 106);
+    text-align: center;
+    height: 35vh;
+    float: left;
+    width: 34vw;
+}
+.f3{
+    background-color: rgb(161, 73, 161);
+    text-align: center;
+    height: 35vh;
+    float: left;
+    width: 33vw;
+}
+
+@media (max-width:412px) {
+    .header{
+        height: 13vh;
+    }
+    .f1{
+        display: none;
+    }
+    .f2{
+        display: none;
+    }
+    .f3{
+        display: none;
+    }
+    .fm1{
+        background-color: rgb(250, 188, 117);
+        text-align: center;
+        height: 15vh;
+    }
+    .fm2{
+        background-color: rgb(255, 106, 106);
+        text-align: center;
+        height: 15vh;
+    }
+    .fm3{
+        background-color: rgb(161, 73, 161);
+        text-align: center;
+        height: 15vh;
+    }
+    .contentm{
+        background-color: lightgray;
+        text-align: center;
+        height: 30vh;
+        width: 100vw;
+    }
+    .supm{
+        background-color: rgb(150, 207, 241);
+        text-align: center;
+        height: 10vh;
+        width: 100vw;
+    }
+    .content{
+        display: none;
+    }
+    .sup{
+        display: none;
+    }
+}
+@media (min-width:413px) and (max-width:768px){
+    .header{
+        height: 13vh;
+    }
+    .f1{
+        display: none;
+    }
+    .f2{
+        display: none;
+    }
+    .f3{
+        display: none;
+    }
+    .fm1{
+        background-color: rgb(250, 188, 117);
+        text-align: center;
+        float: left;
+        width: 50vw;
+        height: 25vh;
+    }
+    .fm2{
+        background-color: rgb(255, 106, 106);
+        text-align: center;
+        float: left;
+        width: 50vw;
+        height: 25vh;
+    }
+    .fm3{
+        background-color: rgb(161, 73, 161);
+        text-align: center;
+        float: left;
+        width: 50vw;
+        height: 25vh;
+    }
+    .contentm{
+        background-color: lightgray;
+        text-align: center;
+        height: 35vh;
+        width: 100vw;
+    }
+    .supm{
+        background-color: rgb(150, 207, 241);
+        text-align: center;
+        float: left;
+        width: 50vw;
+        height: 25vh;
+    }
+    .content{
+        display: none;
+    }
+    .sup{
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+@media (max-width: 320px) {
+    body{
+        color: blue;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    body{
+        color: red;
+    }
+}
+
+@media (orientation=landscape) {
+    body {
+        background-color: grey;
+    }
+}
