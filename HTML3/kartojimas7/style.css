@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 5px;
+}
+main{
+    display: flex;
+    gap: 5px;
+}
+.C1{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    float: left;
+    flex-grow: 1.5;
+}
+.C2{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.CB1{
+    display: flex;
+    gap: 5px;
+}
+.CB2{
+    display: flex;
+    gap: 5px;
+}
+.pirmas{
+    background-color: rgb(1,129,1);
+    flex-grow: 1;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nul{
+    background-color: rgb(41,219,24);
+    flex-grow: 2;
+    height: 20vh;
+}
+.B1{
+    background-color: rgb(176,233,171);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.B2{
+    background-color: rgb(26,158,1);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B3{
+    background-color: rgb(139,196,161);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.B4{
+    background-color: rgb(156,184,156);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keturi{
+    background-color: rgb(117,250,128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+@media (max-width:412px){
+    main{
+        flex-direction: column;
+    }
+    .nul{
+        height: 25vh;
+    }
+    .B1{
+        height: 25vh;
+    }
+    .B3{
+        height: 25vh;
+    }
+    .keturi{
+        height: 11vh;
+    }
+}

@@ -1,0 +1,70 @@
+body{
+    padding: 5px;
+    margin: 0;
+}
+.C12{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+}
+.C1{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 5px;
+    order: 2;
+    text-align: right;
+}
+.C2{
+    display: flex;
+    flex-grow: 4;
+    flex-direction: column;
+    gap: 5px;
+    text-align: right;
+}
+.C3{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.head{
+    background-color: rgb(103,155,240);
+    width: 100%;
+    margin-bottom: 5px;
+    height: 10vh;
+    text-align: right;
+}
+.hero{
+    background-color: rgb(237,102,115);
+    height: 7vh;
+}
+.side{
+    background-color: rgb(208,99,227);
+    height: 13vh;
+}
+.main{
+    background-color: rgb(236,101,181);
+    height: 13vh;
+}
+.extra{
+    background-color: rgb(112,219,217);
+    height: 7vh;
+}
+.imgr{
+    background-color: rgb(117,217,137);
+    flex-grow: 2;
+    order: 2;
+    height: 10vh;
+}
+.relp{
+    background-color: rgb(206,215,114);
+    flex-grow: 1;
+}
+.foot{
+    background-color: rgb(217,186,118);
+    width: 100%;
+    height: 10vh;
+    text-align: right;
+}

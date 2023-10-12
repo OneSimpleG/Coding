@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+}
+.C1{
+    flex-grow: 1;
+}
+.T{
+    background-color: rgb(112,224,199);
+    height: 20vh;
+}
+.Y{
+    background-color: rgb(252,187,2);
+    flex-grow: 1;
+}
+.DB{
+    background-color: rgb(15,63,136);
+    flex-grow: 1;
+}
+.T2{
+    background-color: rgb(96,220,190);
+    flex-grow: 1;
+}
+.B{
+    background-color: rgb(154,64,48);
+    flex-grow: 1;
+}
+.O{
+    background-color: rgb(227,124,59);
+    height: 10vh;
+}
+.BDBT2{
+    display: flex;
+    height: 20vh;
+}
+.DBT2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 20vh;
+}
+@media(max-width:412px){
+    main{
+        flex-direction: column;
+    }
+    .BDBT2{
+        height: 40vh;
+    }
+    .DBT2{
+        height: inherit;
+    }
+    .Y{
+        height: 30vh;
+    }
+}
