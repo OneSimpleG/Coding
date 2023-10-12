@@ -136,12 +136,14 @@ h2{
     gap: 1vw;
     margin: 2vw;
     justify-content: space-between;
+    overflow-x: hidden;
 }
 .PC2{
     display: flex;
     gap: 1vw;
     margin: 2vw;
     justify-content: space-between;
+    overflow-x: hidden;
 }
 .nimg{
     max-width: 160px;
@@ -171,6 +173,12 @@ h2{
 }
 
 @media(max-width:412px){
+    .home{
+        display: none;
+    }
+    .navls{
+        height: 10vw;
+    }
     .body{
         width: 100vw;
     }
