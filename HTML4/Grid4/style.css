@@ -1,0 +1,65 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    grid-template-rows: repeat(5,90px);
+    gap: 2px;
+    grid-template-areas: 
+    "S1 S2 S2 S3 S4"
+    "S5 S6 S7 S3 S4"
+    "S8 S8 S8 S8 S4"
+    "S9 S9 S10 S11 S4"
+    "S9 S9 S12 S13 S4"
+    ;
+}
+.S1{
+    grid-area: S1;
+    background-color: rgb(50,169,82);
+}
+.S2{
+    grid-area: S2;
+    background-color: rgb(69,238,162);
+}
+.S3{
+    grid-area: S3;
+    background-color: rgb(132,176,228);
+}
+.S4{
+    grid-area: S4;
+    background-color: rgb(209,132,227);
+}
+.S5{
+    grid-area: S5;
+    background-color: rgb(153,230,28);
+}
+.S6{
+    grid-area: S6;
+    background-color: rgb(29,231,199);
+}
+.S7{
+    grid-area: S7;
+    background-color: rgb(230,54,28);
+}
+.S8{
+    grid-area: S8;
+    background-color: rgb(189,140,142);
+}
+.S9{
+    grid-area: S9;
+    background-color: rgb(111,81,125)
+}
+.S10{
+    grid-area: S10;
+    background-color: rgb(41,29,38);
+}
+.S11{
+    grid-area: S11;
+    background-color: rgb(186,32,142);
+}
+.S12{
+    grid-area: S12;
+    background-color: rgb(176,18,26);
+}
+.S13{
+    grid-area: S13;
+    background-color: rgb(132,178,228);
+}

@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    gap: 2px;
+    text-align: center;
+    grid-template-columns: 90px 60px 90px 180px 90px;
+    grid-template-rows: repeat(4,50px);
+    grid-template-areas: 
+    "S1 S2 S2 S3 S4"
+    "S5 S2 S2 S3 S6"
+    "S7 S8 S9 S3 S10"
+    "S11 S11 S11 S3 S12"
+    ;
+}
+.S1{
+    grid-area: S1;
+    background-color: rgb(201,49,107);
+}
+.S2{
+    grid-area: S2;
+    background-color: rgb(202,49,157);
+}
+.S3{
+    grid-area: S3;
+    background-color: rgb(237,110,98);
+}
+.S4{
+    grid-area: S4;
+    background-color: rgb(239,197,56);
+}
+.S5{
+    grid-area: S5;
+    background-color: rgb(83,140,69);
+}
+.S6{
+    grid-area: S6;
+    background-color: rgb(38,124,136);
+}
+.S7{
+    grid-area: S7;
+    background-color: rgb(121,153,40);
+}
+.S8{
+    grid-area: S8;
+    background-color: rgb(71,136,85);
+}
+.S9{
+    grid-area: S9;
+    background-color: rgb(49,201,194);
+}
+.S10{
+    grid-area: S10;
+    background-color: rgb(49,201,144);
+}
+.S11{
+    grid-area: S11;
+    background-color: rgb(84,64,121);
+}
+.S12{
+    grid-area: S12;
+    background-color: rgb(222,33,47);
+}

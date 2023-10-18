@@ -1,0 +1,84 @@
+.container{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 120px 120px 120px 120px 50px 120px;
+    grid-template-rows: 50px 50px 20px 80px 20px 80px 20px;
+    grid-template-areas: 
+    "S1 S1 S6 S7 S10 S10"
+    "S1 S1 S6 S8 S11 S12"
+    "S2 S3 S6 S8 S13 S13"
+    "S2 S4 S6 S8 S13 S13"
+    "S2 S4 S9 S9 S13 S13"
+    "S5 S5 S9 S9 S13 S13"
+    "S5 S5 S9 S9 S14 S14";
+}
+.S1{
+    grid-area: S1;
+    background-color: rgb(255,0,0);
+    border-radius: 5px;
+}
+.S2{
+    grid-area: S2;
+    background-color: rgb(138,60,227);
+    border-radius: 5px;
+}
+.S3{
+    grid-area: S3;
+    background-color: rgb(166,42,43);
+    border-radius: 5px;
+}
+.S4{
+    grid-area: S4;
+    background-color: rgb(1,255,255);
+    border-radius: 5px;
+}
+.S5{
+    grid-area: S5;
+    background-color: rgb(0,69,255);
+    border-radius: 5px;
+}
+.S6{
+    grid-area: S6;
+    background-color: rgb(189,143,143);
+    border-radius: 5px;
+}
+.S7{
+    grid-area: S7;
+    background-color: rgb(255,248,0);
+    border-radius: 5px;
+}
+.S8{
+    grid-area: S8;
+    background-color: rgb(1,129,1);
+    border-radius: 5px;
+}
+.S9{
+    grid-area: S9;
+    background-color: rgb(255,165,1);
+    border-radius: 5px;
+}
+.S10{
+    grid-area: S10;
+    background-color: rgb(107,142,35);
+    border-radius: 5px;
+}
+.S11{
+    grid-area: S11;
+    background-color: rgb(154,205,50);
+    border-radius: 5px;
+}
+.S12{
+    grid-area: S12;
+    background-color: rgb(0,30,129);
+    border-radius: 5px;
+}
+.S13{
+    grid-area: S13;
+    background-color: rgb(103,205,171);
+    border-radius: 5px;
+}
+.S14{
+    grid-area: S14;
+    background-color: rgb(250,235,216);
+    border-radius: 5px;
+}
