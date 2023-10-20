@@ -1,0 +1,20 @@
+.container{
+    background-image: url(https://media.istockphoto.com/id/1256696490/photo/used-concrete-asphalt-airport-empty-runway-with-many-braking-marks-markings-for-landings-and.jpg?s=612x612&w=0&k=20&c=zBIW1UQmmBM3zpmzXbQXX-8gY9x43G7JrABx87oyn7U=);
+    width: 612px;
+    height: 408px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.plane{
+    width: 90%;
+    margin-top: 35%;
+    animation: Fly 5s ease-out;
+    position: absolute;
+}
+@keyframes Fly {
+    0%{
+        width: 20%;
+        margin-top: 0%;
+    }
+}

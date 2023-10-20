@@ -1,0 +1,10 @@
+@mixin perfect-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-direction($direction){
+    @include perfect-center;
+    flex-direction: $direction;
+}

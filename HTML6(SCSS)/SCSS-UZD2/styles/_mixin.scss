@@ -1,0 +1,14 @@
+$dark-gray: rgb(99, 99, 99);
+$bg-color: gray;
+
+@mixin btn{
+    cursor: pointer;
+    background-color: $bg-color;
+    outline: 1px solid $dark-gray;
+}
+
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

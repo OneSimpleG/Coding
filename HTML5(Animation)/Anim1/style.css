@@ -1,0 +1,22 @@
+.container{
+    background-image: url(https://media.istockphoto.com/id/467367026/photo/perfect-sky-and-ocean.jpg?s=612x612&w=0&k=20&c=LZYFRxIhuKQom3l-kR3TLN7GikSJYJz9NRglQ3nngBw=);
+    width: 610px;
+    height: 400px;
+    border: 1px solid black;
+}
+.boat{
+    width: 30%;
+    margin-top: 35%;
+    animation: Swim 4s linear infinite;
+}
+@keyframes Swim{
+    0%{
+        margin-left: 0;
+    }
+    50%{
+        margin-left: 70%;
+    }
+    100%{
+        margin-left: 0;
+    }
+}

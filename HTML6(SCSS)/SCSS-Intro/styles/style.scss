@@ -1,0 +1,9 @@
+@use "index";
+
+.container{
+    @include index.flex-direction(column);
+    background-color: index.$colors;
+    border: 1px solid index.$color;
+    background-color: index.content-width(250);
+    padding: index.padding-size(400);
+}

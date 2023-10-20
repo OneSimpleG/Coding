@@ -1,0 +1,13 @@
+@function content-width($content-width){
+    @if ($content-width >200){
+        @return $content-width/200;
+    }
+    @return yellow;
+}
+
+@function padding-size($content-width){
+    @if ($content-width >200){
+        @return $content-width/200;
+    }
+    @return 15;
+}
