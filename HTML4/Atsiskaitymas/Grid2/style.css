@@ -24,14 +24,15 @@
     height: 100%;
     position: absolute;
 }
-.P1{
-    grid-area: P1;
-    background-image:url(https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG98ZW58MHx8MHx8fDA%3D&w=1000);
+.P{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    display: flex;
+}
+.P1{
+    grid-area: P1;
+    background-image:url(https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG98ZW58MHx8MHx8fDA%3D&w=1000);
 }
 .P1:hover > .overlay{
     background-color: rgb(0, 0, 0, .5);
@@ -42,13 +43,9 @@
 .P2{
     grid-area: P2;
     background-image: url(https://images.unsplash.com/photo-1554080353-a576cf803bda?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG98ZW58MHx8MHx8fDA%3D&w=1000);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P2:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P2:hover > .overlay > .text{
     opacity: 1;
@@ -56,13 +53,9 @@ background-color: rgb(0, 0, 0, .5);
 .P3{
     grid-area: P3;
     background-image: url(https://images.pexels.com/photos/2893685/pexels-photo-2893685.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P3:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P3:hover > .overlay > .text{
     opacity: 1;
@@ -70,13 +63,9 @@ background-color: rgb(0, 0, 0, .5);
 .P4{
     grid-area: P4;
     background-image: url(https://img.freepik.com/free-photo/colorful-heart-air-balloon-shape-collection-concept-isolated-color-background-beautiful-heart-ball-event_90220-1047.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P4:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P4:hover > .overlay > .text{
     opacity: 1;
@@ -84,13 +73,9 @@ background-color: rgb(0, 0, 0, .5);
 .P5{
     grid-area: P5;
     background-image: url(https://media.wired.com/photos/5fb70f2ce7b75db783b7012c/master/pass/Gear-Photos-597589287.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P5:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P5:hover > .overlay > .text{
     opacity: 1;
@@ -98,13 +83,9 @@ background-color: rgb(0, 0, 0, .5);
 .P6{
     grid-area: P6;
     background-image: url(https://iso.500px.com/wp-content/uploads/2019/07/stock-photo-maderas-312058103.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P6:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P6:hover > .overlay > .text{
     opacity: 1;
@@ -113,12 +94,9 @@ background-color: rgb(0, 0, 0, .5);
     grid-area: P7;
     background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/pure-nature-landscape-single-tree-in-green-field-free-photo.jpg?w=600&quality=80);
     background-position: 23%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P7:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P7:hover > .overlay > .text{
     opacity: 1;
@@ -126,13 +104,9 @@ background-color: rgb(0, 0, 0, .5);
 .P8{
     grid-area: P8;
     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/025/284/015/small/close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P8:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P8:hover > .overlay > .text{
     opacity: 1;
@@ -140,13 +114,9 @@ background-color: rgb(0, 0, 0, .5);
 .P9{
     grid-area: P9;
     background-image: url(https://thumbs.dreamstime.com/b/sea-water-ocean-wave-surfing-surface-colorful-vibrant-sunset-barrel-shape-124362369.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P9:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P9:hover > .overlay > .text{
     opacity: 1;
@@ -154,13 +124,9 @@ background-color: rgb(0, 0, 0, .5);
 .P10{
     grid-area: P10;
     background-image: url(https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P10:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P10:hover > .overlay > .text{
     opacity: 1;
@@ -168,13 +134,9 @@ background-color: rgb(0, 0, 0, .5);
 .P11{
     grid-area: P11;
     background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5596z2BCR9KmT1KeRBrOQa/4070fd4e2f1a13f71c2c46afeb18e41c/shutterstock_451077043-hero1.jpg);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P11:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P11:hover > .overlay > .text{
     opacity: 1;
@@ -182,13 +144,9 @@ background-color: rgb(0, 0, 0, .5);
 .P12{
     grid-area: P12;
     background-image: url(https://media.macphun.com/img/uploads/macphun/blog/625/visiting-site-photo-frame.jpg?q=75&w=1710&h=906&resize=cover);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P12:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P12:hover > .overlay > .text{
     opacity: 1;
@@ -196,13 +154,9 @@ background-color: rgb(0, 0, 0, .5);
 .P13{
     grid-area: P13;
     background-image: url(https://www.stockvault.net/data/2020/01/18/272608/thumb16.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P13:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P13:hover > .overlay > .text{
     opacity: 1;
@@ -210,14 +164,9 @@ background-color: rgb(0, 0, 0, .5);
 .P14{
     grid-area: P14;
     background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    display: flex;
 }
 .P14:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P14:hover > .overlay .text{
     opacity: 1;
@@ -225,13 +174,9 @@ background-color: rgb(0, 0, 0, .5);
 .P15{
     grid-area: P15;
     background-image: url(https://thumbs.dreamstime.com/b/bee-flower-27533578.jpg);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P15:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P15:hover > .overlay > .text{
     opacity: 1;
@@ -239,13 +184,9 @@ background-color: rgb(0, 0, 0, .5);
 .P16{
     grid-area: P16;
     background-image: url(https://petapixel.com/assets/uploads/2022/08/notlandscapes.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P16:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P16:hover > .overlay > .text{
     opacity: 1;
@@ -253,13 +194,9 @@ background-color: rgb(0, 0, 0, .5);
 .P17{
     grid-area: P17;
     background-image: url(https://earthsky.org/upl/2023/06/Sunset-Shells-Christy-Mandeville-Feb-9-2023.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P17:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P17:hover > .overlay > .text{
     opacity: 1;
@@ -267,13 +204,9 @@ background-color: rgb(0, 0, 0, .5);
 .P18{
     grid-area: P18;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKtrFakUAs_xJBbIVcZCCWRvlNM43mrlxHiw&usqp=CAU);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P18:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P18:hover > .overlay > .text{
     opacity: 1;
@@ -281,13 +214,9 @@ background-color: rgb(0, 0, 0, .5);
 .P19{
     grid-area: P19;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA8GVqY7CRGpJzgZF_n_QAcGBmvthcJjkRVA&usqp=CAU);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P19:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P19:hover > .overlay > .text{
     opacity: 1;
@@ -296,12 +225,9 @@ background-color: rgb(0, 0, 0, .5);
     grid-area: P20;
     background-image: url(https://www.cnet.com/a/img/resize/a55ce58ff6bcb46cc8ada3adf23193e7e7bbb338/hub/2019/10/09/c4f49e5f-459e-4c9f-bfc9-9e4e9d6256d5/nikon-z50-10.jpg?auto=webp&width=1200);
     background-position: 40%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
 }
 .P20:hover > .overlay{
-background-color: rgb(0, 0, 0, .5);
+    background-color: rgb(0, 0, 0, .5);
 }
 .P20:hover > .overlay > .text{
     opacity: 1;

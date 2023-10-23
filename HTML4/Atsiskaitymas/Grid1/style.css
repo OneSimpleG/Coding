@@ -18,25 +18,46 @@
     "S10 CB3 CB3 CG2 CG2 CG2 CY2 CY2"
     "S11 CB3 CB3 CG2 CG2 CG2 CY2 CY2";
 }
-.S1{
-    grid-area: S1;
+.ST{
     background-color: rgb(245,245,245);
     border-radius: 5px;
+}
+.B{
+    background-color: rgb(206,229,238);
+    border-radius: 5px;
+    color: rgb(20,139,183);
+}
+.G{
+    background-color: rgb(173,247,208);
+    border-radius: 5px;
+    color: rgb(0,209,125);
+}
+.R{
+    background-color: rgb(255,186,188);
+    border-radius: 5px;
+    color: rgb(249,83,90);
+}
+.Y{
+    background-color: rgb(255,247,163);
+    border-radius: 5px;
+    color: rgb(255,187,6);
+}
+.BR{
+    background-color: rgb(236,236,236);
+    border-radius: 5px;
+    color: rgb(88,88,88);
+}
+.S1{
+    grid-area: S1;
 }
 .S2{
     grid-area: S2;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .S3{
     grid-area: S3;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .S4{
     grid-area: S4;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .S5{
     grid-area: S5;
@@ -45,13 +66,9 @@
 }
 .S6{
     grid-area: S6;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .S7{
     grid-area: S7;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .S8{
     grid-area: S8;
@@ -60,123 +77,67 @@
 }
 .S9{
     grid-area: S9;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .S10{
     grid-area: S10;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .S11{
     grid-area: S11;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .T1{
     grid-area: T1;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .T2{
     grid-area: T2;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .T3{
     grid-area: T3;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .T4{
     grid-area: T4;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .T5{
     grid-area: T5;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .T6{
     grid-area: T6;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .T7{
     grid-area: T7;
-    background-color: rgb(245,245,245);
-    border-radius: 5px;
 }
 .CB1{
     grid-area: CB1;
-    background-color: rgb(206,229,238);
-    border-radius: 5px;
-    color: rgb(20,139,183);
 }
 .CB2{
     grid-area: CB2;
-    background-color: rgb(206,229,238);
-    border-radius: 5px;
-    color: rgb(20,139,183);
 }
 .CB3{
     grid-area: CB3;
-    background-color: rgb(206,229,238);
-    border-radius: 5px;
-    color: rgb(20,139,183);
 }
 .CG1{
     grid-area: CG1;
-    background-color: rgb(173,247,208);
-    border-radius: 5px;
-    color: rgb(0,209,125);
 }
 .CG2{
     grid-area: CG2;
-    background-color: rgb(173,247,208);
-    border-radius: 5px;
-    color: rgb(0,209,125);
 }
 .CR1{
     grid-area: CR1;
-    background-color: rgb(255,186,188);
-    border-radius: 5px;
-    color: rgb(249,83,90);
 }
 .CR2{
     grid-area: CR2;
-    background-color: rgb(255,186,188);
-    border-radius: 5px;
-    color: rgb(249,83,90);
 }
 .CY1{
     grid-area: CY1;
-    background-color: rgb(255,247,163);
-    border-radius: 5px;
-    color: rgb(255,187,6);
 }
 .CY2{
     grid-area: CY2;
-    background-color: rgb(255,247,163);
-    border-radius: 5px;
-    color: rgb(255,187,6);
 }
 .BR1{
     grid-area: BR1;
-    background-color: rgb(236,236,236);
-    border-radius: 5px;
-    color: rgb(88,88,88);
 }
 .BR2{
     grid-area: BR2;
-    background-color: rgb(236,236,236);
-    border-radius: 5px;
-    color: rgb(88,88,88);
 }
 .BR3{
     grid-area: BR3;
-    background-color: rgb(236,236,236);
-    border-radius: 5px;
-    color: rgb(88,88,88);
 }
