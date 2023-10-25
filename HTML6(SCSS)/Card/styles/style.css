@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: rgb(21, 231, 21);
+  min-height: 31.25rem;
+  max-width: 31.25rem;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px;
+}
+@media (min-width: 425px) {
+  .card {
+    background-color: gray;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    background-color: rgb(21, 231, 21);
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    background-color: gray;
+  }
+}
+.card__img {
+  width: 100%;
+}
+.card__text {
+  padding: 5px;
+}
+@media (min-width: 768px) {
+  .card__text {
+    padding: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .card__text {
+    padding: 15px;
+  }
+}
+.card__buttons {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  gap: 40px;
+}
+.card__button {
+  padding: 20px;
+  border-radius: 7px;
+}
+.card__button--submit {
+  padding: 7px;
+  color: dodgerblue;
+  background-color: white;
+  border: 2px solid dodgerblue;
+}
+.card__button--cancel {
+  padding: 7px;
+  color: crimson;
+  background-color: white;
+  border: 2px solid crimson;
+}/*# sourceMappingURL=style.css.map */

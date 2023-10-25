@@ -1,0 +1,62 @@
+@use "index" as *;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    background-color: $bg-color;
+    min-height: to-rem(500);
+    max-width: to-rem(500);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+
+    @media (min-width: $media-sm){
+        background-color: $color;
+    }
+
+    @media  (min-width: $media-md){
+        background-color: $bg-color;
+    }
+
+    @media (min-width: $media-lg){
+        background-color: $color;
+    }
+
+    &__img{
+        width: 100%;
+    }
+
+    &__text{
+        padding: dynamic-spacer($media-sm, 1);
+
+        @media(min-width: $media-md){
+            padding: dynamic-spacer($media-md, 2);
+        }
+
+        @media(min-width: $media-lg) {
+            padding: dynamic-spacer($media-lg, 3);
+        }
+    }
+
+    &__buttons{
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+        gap: 40px;
+    }
+
+    &__button{
+        padding: 20px;
+        border-radius: 7px;
+
+        &--submit{
+            @include box-design(dodgerblue,white,2,7px)
+        }
+
+        &--cancel{
+            @include box-design(crimson,white,2,7px)
+        }
+    }
+}

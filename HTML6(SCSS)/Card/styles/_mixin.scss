@@ -1,0 +1,6 @@
+@mixin box-design($color, $bg, $border-width, $padding){
+    padding: $padding;
+    color: $color;
+    background-color: $bg;
+    border: $border-width + px solid $color;
+}
