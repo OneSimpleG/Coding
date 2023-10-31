@@ -1,0 +1,10 @@
+@mixin petal($Color1,$Color2,$Deg){
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom left;
+    transform: rotate($Deg + deg);
+    width: 7vw;
+    height: 7vh;
+    background: linear-gradient($Color1,$Color2);
+}

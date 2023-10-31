@@ -1,0 +1,412 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: cyan;
+  display: flex;
+  justify-content: center;
+  transition: background-color 8s;
+}
+
+.sun {
+  width: 10vw;
+  height: 10vw;
+  background: radial-gradient(yellow, orange);
+  box-shadow: 0 0 20px yellow;
+  border-radius: 100%;
+  position: absolute;
+  top: 7vh;
+  left: 4vw;
+  animation: rise 5s;
+}
+@keyframes rise {
+  0% {
+    left: -11vw;
+    top: 30vh;
+  }
+}
+
+.text {
+  position: absolute;
+  top: 30vh;
+  font-size: 3vw;
+  animation: fadein 8s linear;
+}
+.text span {
+  display: inline-block;
+  padding: 0 0.5vw 0 0.5vw;
+  animation: textflip 2s linear 8s;
+}
+.text span:nth-child(2) {
+  animation-delay: 8.3s;
+}
+.text span:nth-child(3) {
+  animation-delay: 8.6s;
+}
+.text span:nth-child(4) {
+  animation-delay: 8.9s;
+}
+.text span:nth-child(5) {
+  animation-delay: 9.2s;
+}
+.text span:nth-child(6) {
+  animation-delay: 9.5s;
+}
+.text span:nth-child(7) {
+  animation-delay: 9.8s;
+}
+.text span:nth-child(8) {
+  animation-delay: 10.1s;
+}
+.text span:nth-child(9) {
+  animation-delay: 10.4s;
+}
+
+.flower_1 {
+  position: absolute;
+  right: 15vw;
+  bottom: 0;
+}
+.flower_1__stem {
+  position: absolute;
+  background: linear-gradient(green, darkgreen);
+  height: 70vh;
+  width: 1vw;
+  bottom: 0;
+  animation: grow 5s ease-out;
+}
+.flower_1__center {
+  position: absolute;
+  bottom: 70vh;
+  left: 0.5vw;
+  animation: center_grow 8s ease-out;
+}
+.flower_1__leaf {
+  position: absolute;
+  width: 7vw;
+  height: 7vh;
+  bottom: 35vh;
+  background: linear-gradient(260deg, lime, darkgreen);
+  animation: sprout 8s linear;
+}
+.flower_1__core {
+  background-color: yellow;
+  border-radius: 100%;
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  bottom: 65vh;
+  left: -2vw;
+  z-index: 10;
+  animation: center_grow 8s ease-out;
+}
+.flower_1__petal_1 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(0deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(pink, white);
+}
+.flower_1__petal_2 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(60deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(pink, white);
+}
+.flower_1__petal_3 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(120deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(pink, white);
+}
+.flower_1__petal_4 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(180deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(pink, white);
+}
+.flower_1__petal_5 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(240deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(pink, white);
+}
+.flower_1__petal_6 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(300deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(pink, white);
+}
+
+.flower_2 {
+  position: absolute;
+  right: 50vw;
+  bottom: 0;
+}
+.flower_2__stem {
+  position: absolute;
+  background: linear-gradient(green, darkgreen);
+  height: 40vh;
+  width: 1vw;
+  bottom: 0;
+  animation: grow 5s ease-out;
+}
+.flower_2__center {
+  position: absolute;
+  bottom: 40vh;
+  left: 0.5vw;
+  animation: center_grow 8s ease-out;
+}
+.flower_2__leaf {
+  position: absolute;
+  width: 7vw;
+  height: 7vh;
+  bottom: 10vh;
+  background: linear-gradient(260deg, lime, darkgreen);
+  animation: sprout 8s linear;
+}
+.flower_2__core {
+  background-color: yellow;
+  border-radius: 100%;
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  bottom: 35vh;
+  left: -2vw;
+  z-index: 10;
+  animation: center_grow 8s ease-out;
+}
+.flower_2__petal_1 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(0deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(crimson, purple);
+}
+.flower_2__petal_2 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(60deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(crimson, purple);
+}
+.flower_2__petal_3 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(120deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(crimson, purple);
+}
+.flower_2__petal_4 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(180deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(crimson, purple);
+}
+.flower_2__petal_5 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(240deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(crimson, purple);
+}
+.flower_2__petal_6 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(300deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(crimson, purple);
+}
+
+.flower_3 {
+  position: absolute;
+  left: 20vw;
+  bottom: 0;
+}
+.flower_3__stem {
+  position: absolute;
+  background: linear-gradient(green, darkgreen);
+  height: 45vh;
+  width: 1vw;
+  bottom: 0;
+  animation: grow 5s ease-out;
+}
+.flower_3__center {
+  position: absolute;
+  bottom: 45vh;
+  left: 0.5vw;
+  animation: center_grow 8s ease-out;
+}
+.flower_3__leaf {
+  position: absolute;
+  width: 7vw;
+  height: 7vh;
+  bottom: 15vh;
+  background: linear-gradient(260deg, lime, darkgreen);
+  animation: sprout 8s linear;
+}
+.flower_3__core {
+  background-color: yellow;
+  border-radius: 100%;
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  bottom: 40vh;
+  left: -2vw;
+  z-index: 10;
+  animation: center_grow 8s ease-out;
+}
+.flower_3__petal_1 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(0deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(purple, pink);
+}
+.flower_3__petal_2 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(60deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(purple, pink);
+}
+.flower_3__petal_3 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(120deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(purple, pink);
+}
+.flower_3__petal_4 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(180deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(purple, pink);
+}
+.flower_3__petal_5 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(240deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(purple, pink);
+}
+.flower_3__petal_6 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom left;
+  transform: rotate(300deg);
+  width: 7vw;
+  height: 7vh;
+  background: linear-gradient(purple, pink);
+}
+
+.petal {
+  border-radius: 100% 50%;
+}
+
+@keyframes grow {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 0;
+  }
+}
+@keyframes center_grow {
+  0% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(0);
+  }
+}
+@keyframes sprout {
+  0% {
+    transform: scale(0);
+    transform-origin: 0 50%;
+  }
+  50% {
+    transform: scale(0);
+    transform-origin: 0 50%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 0 50%;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes textflip {
+  100% {
+    transform: rotateX(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */
