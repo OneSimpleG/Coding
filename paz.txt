@@ -1,0 +1,5 @@
+Mokinys Nr. 1 vidurkis HTML ir Python yra 5.83. Tik HTML vidurkis 7.0
+Mokinys Nr. 2 vidurkis HTML ir Python yra 4.6. Tik HTML vidurkis 6.33
+Mokinys Nr. 3 vidurkis HTML ir Python yra 7.0. Tik HTML vidurkis 8.25
+Mokinys Nr. 6 vidurkis HTML ir Python yra 5.0. Tik HTML vidurkis 4.8
+Mokinys Nr. 17 vidurkis HTML ir Python yra 4.0. Tik HTML vidurkis 4.25

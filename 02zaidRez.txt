@@ -1,0 +1,12 @@
+zaideju vardai: gustas ir grantas
+Lazdeliu pasirinktas skaicius yra 10
+zaidima pradeda gustas
+gustas paima 3 lazdeliu. Liko 7
+grantas paima 2 lazdeliu. Liko 5
+gustas paima 1 lazdeliu. Liko 4
+grantas paima 2 lazdeliu. Liko 2
+gustas paima 1 lazdeliu. Liko 1
+grantas paima 1 lazdeliu. Liko 0
+Zaidima laimejo gustas
+I uzklausa "Ar norite dar?" pasirinko "Ne"
+Zaidima zaide 1 karta(us)

@@ -1,0 +1,12 @@
+1 kova. Antras skaicius sunaikina pirma skaiciu
+Rezultatas [8, '15', '15', '18', '20', '21']
+2 kova. Antras skaicius sunaikina pirma skaiciu
+Rezultatas [22, '15', '18', '20', '21']
+3 kova. Pirmas skaicius sunaikina antra skaiciu
+Rezultatas [29, '18', '20', '21']
+4 kova. Pirmas skaicius sunaikina antra skaiciu
+Rezultatas [40, '20', '21']
+5 kova. Pirmas skaicius sunaikina antra skaiciu
+Rezultatas [60, '21']
+6 kova. Pirmas skaicius sunaikina antra skaiciu
+Rezultatas [99]

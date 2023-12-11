@@ -1,0 +1,18 @@
+Vartotojas irase skaiciu: 70
+Sugeneruotas skaicius: 35
+1 spejimu vartotojas ivede 26 - sugeneruotas skaicius didesnis
+2 spejimu vartotojas ivede 32 - sugeneruotas skaicius didesnis
+3 spejimu vartotojas ivede 40 - sugeneruotas skaicius mazesnis
+4 spejimu vartotojas ivede 36 - sugeneruotas skaicius mazesnis
+5 spejimu vartotojas ivede 34 - sugeneruotas skaicius didesnis
+6 spejimu vartotojas atspejo sugeneruota skaiciu
+I uzklausa "Ar norite kartoti zaidima?" vartotojas atsake "taip"
+Vartotojas irase skaiciu: 100
+Sugeneruotas skaicius: 50
+1 spejimu vartotojas ivede 69 - sugeneruotas skaicius mazesnis
+2 spejimu vartotojas ivede 60 - sugeneruotas skaicius mazesnis
+3 spejimu vartotojas ivede 30 - sugeneruotas skaicius didesnis
+4 spejimu vartotojas ivede 40 - sugeneruotas skaicius didesnis
+5 spejimu vartotojas atspejo sugeneruota skaiciu
+I uzklausa "Ar norite kartoti zaidima?" vartotojas atsake "ne"
+Vartotojas zaide 2 kartu

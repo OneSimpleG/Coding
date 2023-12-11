@@ -1,0 +1,9 @@
+15 laipsniu temperatura buvo 1 d.
+16 laipsniu temperatura buvo 1 d.
+17 laipsniu temperatura buvo 5 d.
+18 laipsniu temperatura buvo 1 d.
+19 laipsniu temperatura buvo 3 d.
+
+9 dienas temperatura buvo didesne uz 16
+
+Daugiasiai, 5 dienas buvo 17 laipsniu
